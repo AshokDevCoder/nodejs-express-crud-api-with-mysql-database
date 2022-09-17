@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>NodeJS|Express|MySQL CRUD API</title>
+</head>
+  <style>
+    body{
+      background-color: #EDF0F2;
+    }
+  ul{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+   
+    }
+    li{
+     background-color:#ffbc0338;
+    list-style:none;
+    padding:20px;
+    border-radius: 10px;
+    line-height: 30px;
+    color: #795904;
+    }
+    
+/* 
+002D62 blue
+FFBD03 yellow
+FFC300  yellow
+bg EDF0F2
+*/
+    p{
+      background-color: #002e620e;
+      padding: 4px;
+      color: green;
+    }
+   ul li a{
+    letter-spacing: 1px;
+    padding: 2px;
+      text-decoration: none;
+      background-color: rgba(165, 42, 42, 0.164);
+    }
+    span{
+    color: #002D62;
+    letter-spacing: 2px;
+    }
+  </style>
+<body>
+    <ul>
+        <li>Home Route<br /><span>Method-- GET</span><br />URL:&nbsp;&nbsp; <a href="http://localhost:3000"> http://localhost:3000/</a>
+            <p>Get home page</p>
+        </li>
+       
+        <li>Users Route<br /><span>Method-- GET</span><br />URL:&nbsp;&nbsp; <a href="http://localhost:3000/users"> http://localhost:3000/users</a>
+            <p>Get all users details</p>
+        </li>
+        <li>Single User Route<br /><span>Method-- GET</span><br />URL:&nbsp;&nbsp; <a href="http://localhost:3000/users/1"> http://localhost:3000/users/1</a>
+            <p>Get single user details</p>
+        </li>
+      <li>Add New User Route<br /><span>Method-- POST</span><br />URL:&nbsp;&nbsp; <a> http://localhost:3000/users</a>
+            <p>Add New user</p>
+        </li>
+      <li>Update single  User Route<br /><span>Method-- PUT</span><br />URL:&nbsp;&nbsp; <a> http://localhost:3000/users/1</a>
+            <p>Update single user details</p>
+        </li>
+      <li>Delete single User Route<br /><span>Method-- DELETE</span><br />URL:&nbsp;&nbsp; <a > http://localhost:3000/users/1</a>
+            <p>Delete single user details</p>
+        </li>
+    </ul>
+    
+</body>
+
+</html>
